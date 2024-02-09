@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cronometro</title>
-    <link rel="stylesheet" href="assets/styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="container">
-      <h1 id="watch">00:00:00</h1>
-      <button class="inicio" onclick="init()"><b>INICIO</b></button>
-      <button class="pause" onclick="pause()"><b>PAUSAR</b></button>
-      <button class="stop" onclick="clearAll ()"><b>RESET</b></button>
+        <h1>CALCULADORA DE IMC</h1>
+        <div class="inputs">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso">
+        </div>
+        <div class="inputs">
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura">
+        </div>
+        <button onclick="calculoIMC()">Calcular IMC</button>
+        <div id="resultado"></div>
     </div>
-
-    <script src="assets/script.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
