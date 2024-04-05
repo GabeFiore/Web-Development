@@ -5,7 +5,7 @@ import InfoPessoais from "../InfoPessoais/InfoPessoais";
 function ConteudoPrincipal(){
 
     return(
-        <div class="mainInfo">
+        <div className="mainInfo">
             <section id="info">
                 <InfoPessoais/>
                 <Habilidades/>
