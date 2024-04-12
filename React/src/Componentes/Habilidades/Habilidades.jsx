@@ -1,13 +1,13 @@
 
-function Habilidades(){
+function Habilidades(props){
 
     return(
         <>
             <div class="skills">
                 <h2>Habilidades</h2>
                 <div class="skill-card">
-                    <h3>HTML</h3>
-                    <p>Nível: Avançado</p>
+                    <h3>{props.nome}</h3>
+                    <p>Nível: {props.nivel}</p>
                 </div>
                 <div class="skill-card">
                     <h3>CSS</h3>

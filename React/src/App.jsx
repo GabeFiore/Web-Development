@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header titulo="Site React"/>
       <Outlet/>
       <Footer/>
     </>

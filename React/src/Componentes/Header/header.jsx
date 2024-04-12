@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-function Header(){
+function Header(props){
 
     return(
         <>
             <header>
-                <h1>Meu Site</h1>
+                <h1>{props.titulo}</h1>
                 <nav>
                     <ul>
                         <li><Link to='/'>Home</Link></li>
