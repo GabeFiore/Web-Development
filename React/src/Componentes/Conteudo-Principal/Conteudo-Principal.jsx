@@ -23,7 +23,6 @@ function ConteudoPrincipal(){
                 <InfoPessoais usuarios={infos}/> 
                 <Habilidades nome="HTML" nivel="Avançado"/>
             </section>
-            <Contato/>
         </div>
     )
 }

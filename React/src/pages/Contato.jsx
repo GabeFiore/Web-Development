@@ -1,7 +1,17 @@
 
 function Contato (){
     return(
-        <h1>teste CONTATO</h1>
+        <>
+            <section id="contact">
+                <h2>Entre em Contato</h2>
+                <form>
+                    <input type="text" placeholder="Nome"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea placeholder="Mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </>
     )
 }
 export default Contato;
