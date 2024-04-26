@@ -6,8 +6,9 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Sobre from './pages/Sobre.jsx'
 import Servicos from './pages/Servicos.jsx'
 import Contato from './pages/Contato.jsx'
-import ConteudoPrincipal from './Componentes/Conteudo-Principal/Conteudo-Principal.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
+import InfoPessoais from './pages/InfoPessoais.jsx'
+import Header from './Componentes/Header/header.jsx'
 
 const router = createBrowserRouter(
   [
@@ -16,7 +17,7 @@ const router = createBrowserRouter(
       element:<App/>,
       children:
       [
-        {index:true, element: <ConteudoPrincipal/>},
+        {index:true, element: <Header/>},
         {path:'sobre', element:<Sobre/>},
         {path:'servicos', element:<Servicos/>},
         {path:'contato', element:<Contato/>},
