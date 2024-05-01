@@ -1,7 +1,4 @@
-
-function Sobre(){
-    return(
-        <h1>teste SOBRE</h1>
-    )
+function Sobre() {
+  return <h1>teste SOBRE</h1>;
 }
-export default Sobre ;
+export default Sobre;
