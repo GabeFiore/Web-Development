@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Formulário de Contato</title>
     <link rel="stylesheet" href="contato.css">
-    
 </head>
+
 <body>
     <div class="container">
-        <form action="">
+        <header>
+            <h1>Formulário de Contato</h1>
+        </header>
+
+        <form action="#" id="form-contato">
             <div class="form-control">
-                <input type="text" id="nome" placeholder="Digite seu nome">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
             </div>
             <div class="form-control">
-                <input type="text" id="cidade" placeholder="Digite sua cidade">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" placeholder="Digite sua cidade" required>
             </div>
 
-            <div>
+            <div class="form-control">
                 <button type="submit">Enviar</button>
             </div>
-
         </form>
 
-        <div class="lista">
+        <section class="lista">
+            <h2>Medicamentos Disponíveis</h2>
             <button id="medicamentos">Mostrar medicamentos</button>
 
-            <ul class="remedios d-none">
+            <ul class="remedios hidden">
                 <li>Dorflex</li>
                 <li>Dipirona</li>
                 <li>Lorem</li>
             </ul>
-        </div>
+        </section>
     </div>
     <script src="contato.js"></script>
 </body>
+
 </html>

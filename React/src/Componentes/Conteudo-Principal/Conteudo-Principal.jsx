@@ -1,5 +1,5 @@
 import Habilidades from "../Habilidades/Habilidades";
-import InfoPessoais from "../InfoPessoais/InfoPessoais";
+import InfoPessoais from "../../pages/InfoPessoais";
 
 function ConteudoPrincipal() {
   const infos = [
