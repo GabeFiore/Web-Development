@@ -3,17 +3,23 @@
     margin: 0;
 }
 
+body{
+    background-color: lightgray;
+}
+
 button {
     display: block;
+    width: 200px;
+    height: 70px;
     padding: 10px;
     background: rgb(28, 28, 190);
     color: white;
     border: 0;
     cursor: pointer;
-    margin: 10px auto;
+    margin: 100px auto;
 }
 
-.poupup-wrapper {
+.popup-wrapper {
     background: lightblue;
     position: fixed;
     top: 0;
