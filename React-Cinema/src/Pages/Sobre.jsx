@@ -4,4 +4,4 @@ function Sobre() {
      );
 }
 
-export default Sobre;S
+export default Sobre;
